@@ -1,13 +1,25 @@
 const mongoose = require('mongoose')
 
 const exerciseSchema = new mongoose.Schema({
-  title: {
+  date: {
     type: String,
+    required: false
+  },
+  benchPressWeight: {
+    type: Number,
     required: true
   },
-  text: {
-    type: String,
+  benchPressReps: {
+    type: Number,
     required: true
+  },
+  backSquatWeight: {
+    type: Number,
+    require: true
+  },
+  backSquatReps: {
+    type: Number,
+    require: true
   },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
@@ -16,6 +28,10 @@ const exerciseSchema = new mongoose.Schema({
   }
 }, {
   timestamps: true
+})
+
+exerciseSchema.virtual('fitnessDate').get(() => {
+  return moment(this.date).fromat('MMM Do YY')
 })
 
 module.exports = mongoose.model('Exeercise', exerciseSchema)
