@@ -34,4 +34,4 @@ exerciseSchema.virtual('fitnessDate').get(() => {
   return moment(this.date).fromat('MMM Do YY')
 })
 
-module.exports = mongoose.model('Exeercise', exerciseSchema)
+module.exports = mongoose.model('Exercise', exerciseSchema)
