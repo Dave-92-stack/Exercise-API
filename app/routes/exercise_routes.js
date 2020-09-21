@@ -17,7 +17,7 @@ const router = express.Router()
 // INDEX
 // GET /exercise
 router.get('/userexercises', requireToken, (req, res, next) => {
-  Exercise.find()
+  Exercise.find({ owner: req.user.id })
     .then(exercises => {
       return exercises.map(exercise => exercise.toObject())
     })
