@@ -9,17 +9,14 @@ const handle404 = customErrors.handle404
 const requireOwnership = customErrors.requireOwnership
 
 const removeBlanks = require('../../lib/remove_blank_fields')
-// passing this as a second argument to `router.<verb>` will make it
-// so that a token MUST be passed for that route to be available
-// it will also set `req.user`
+
 const requireToken = passport.authenticate('bearer', { session: false })
 
-// instantiate a router (mini app that only handles routes)
 const router = express.Router()
 
 // INDEX
 // GET /exercise
-router.get('/exercise', requireToken, (req, res, next) => {
+router.get('/userexercises', requireToken, (req, res, next) => {
   Exercise.find()
     .then(exercises => {
       return exercises.map(exercise => exercise.toObject())
