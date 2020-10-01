@@ -8,6 +8,20 @@ and track overall fitness.
 
 ------
 
+## API Routes
+
+------
+
+Verb      |	URI Pattern
+--------- | -----------
+GET | /patients
+GET | /patients/:id
+POST | /add-patient
+PATCH | /patients/:id/edit
+DELETE | /patients/:id
+
+------
+
 ## Technology Used
 
 -------
@@ -38,13 +52,13 @@ and track overall fitness.
 
 -------
 
-['Client Side Repository'] https://github.com/Dave-92-stack/Exercise-Client
+['Client Side Repository'] (https://github.com/Dave-92-stack/Exercise-Client)
 
-['Client Deployment'] https://dave-92-stack.github.io/exercise-client/
+['Client Deployment'] (https://dave-92-stack.github.io/exercise-client/)
 
-['API Side Repository'] https://github.com/Dave-92-stack/Exercise-API
+['API Side Repository'] (https://github.com/Dave-92-stack/Exercise-API)
 
-['API Deployment']
+['API Deployment'] (https://whispering-retreat-24051.herokuapp.com/)
 
 ------
 
