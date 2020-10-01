@@ -12,14 +12,15 @@ and track overall fitness.
 
    1) Fork and Clone this repository.
    2) Create and checkout into a new branch.
-   3) Install dependencies with `npm instal`
+   3) Install dependencies with `npm instal`.
+   4) Run local server with `npm run server`.
 
 --------
 
 ## API Routes
 
 
-Verb      |	URI Pattern
+Verb      |	URI
 --------- | -----------
 GET | /userexercises
 GET | /exercises/:id
