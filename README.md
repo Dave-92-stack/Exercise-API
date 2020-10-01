@@ -7,6 +7,15 @@ and track overall fitness.
 
 --------
 
+## Set Up & Installation for API
+
+
+   1) Fork and Clone this repository.
+   2) Create and checkout into a new branch.
+   3) Install dependencies with `npm instal`
+
+--------
+
 ## API Routes
 
 
