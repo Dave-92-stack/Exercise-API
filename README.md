@@ -21,11 +21,11 @@ and track overall fitness.
 
 Verb      |	URI Pattern
 --------- | -----------
-GET | /patients
-GET | /patients/:id
-POST | /add-patient
-PATCH | /patients/:id/edit
-DELETE | /patients/:id
+GET | /userexercises
+GET | /exercises/:id
+POST | /exercises
+PATCH | /exercises/:id
+DELETE | /exercises/:id
 
 ---------
 
