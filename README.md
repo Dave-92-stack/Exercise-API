@@ -1,16 +1,14 @@
 ## Application Concept
 
-------
 
 This application is intended to function like a fitness tracker. It is designed
 to let users catalogue their weekly routines, compare the results with prior logs,
 and track overall fitness.
 
-------
+--------
 
 ## API Routes
 
-------
 
 Verb      |	URI Pattern
 --------- | -----------
@@ -20,11 +18,10 @@ POST | /add-patient
 PATCH | /patients/:id/edit
 DELETE | /patients/:id
 
-------
+---------
 
 ## Technology Used
 
--------
 
 * HTML
 * SCSS
@@ -36,21 +33,19 @@ DELETE | /patients/:id
 * Mongo DB
 * Momento
 
--------
+---------
 
 ## Unsolved Problems
 
----------
 
 * Currenlty the home button on the header doesn't do anything.
 * React-Auth Template link on the upper left corner needs to be removed.
 * When listing multiple exercises the resources don't have text to describe what the numbers are referencing.
 
-----
+----------
 
 ## Relevant Links
 
--------
 
 ['Client Side Repository'] (https://github.com/Dave-92-stack/Exercise-Client)
 
@@ -60,20 +55,17 @@ DELETE | /patients/:id
 
 ['API Deployment'] (https://whispering-retreat-24051.herokuapp.com/)
 
-------
-
+--------
 
 ## WireFrame & ERD
 
---------
 
 ['WireFrame & ERD'] (https://imgur.com/a/2OUY15k)
 
--------
+--------
 
 ## User Stories
 
---------
 
 * As an unregistered user, I would like to sign up.
 * As a registered user, I would like to sign in with email and password.
