@@ -38,8 +38,6 @@ DELETE | /patients/:id
 ## Unsolved Problems
 
 
-* Currenlty the home button on the header doesn't do anything.
-* React-Auth Template link on the upper left corner needs to be removed.
 * When listing multiple exercises the resources don't have text to describe what the numbers are referencing.
 
 ----------
