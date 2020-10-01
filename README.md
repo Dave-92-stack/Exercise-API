@@ -20,7 +20,7 @@ and track overall fitness.
 ## API Routes
 
 
-Verb      |	URI
+Methods   |	Paths
 --------- | -----------
 GET | /userexercises
 GET | /exercises/:id
