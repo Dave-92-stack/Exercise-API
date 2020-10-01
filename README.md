@@ -45,20 +45,20 @@ DELETE | /patients/:id
 ## Relevant Links
 
 
-['Client Side Repository'] (https://github.com/Dave-92-stack/Exercise-Client)
+[Client Side Repository] (https://github.com/Dave-92-stack/Exercise-Client)
 
-['Client Deployment'] (https://dave-92-stack.github.io/exercise-client/)
+[Client Deployment] (https://dave-92-stack.github.io/exercise-client/)
 
-['API Side Repository'] (https://github.com/Dave-92-stack/Exercise-API)
+[API Side Repository] (https://github.com/Dave-92-stack/Exercise-API)
 
-['API Deployment'] (https://whispering-retreat-24051.herokuapp.com/)
+[API Deployment] (https://whispering-retreat-24051.herokuapp.com/)
 
 --------
 
 ## WireFrame & ERD
 
 
-['WireFrame & ERD'] (https://imgur.com/a/2OUY15k)
+[WireFrame & ERD] (https://imgur.com/a/2OUY15k)
 
 --------
 
